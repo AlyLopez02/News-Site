@@ -1,25 +1,41 @@
 import React from 'react';
+import './style.scss';
+import logo from '../../assets/logo.png';
+
+const mainNavLinks = [
+  'Workspace',
+  'Membership',
+  'Community',
+];
+
+const secondaryNavLinks = [
+  'Contact',
+  'Join Us',
+  'Login',
+];
 
 function Header() {
   return (
-    <div>
-      <header>
-        <img src="https://via.placeholder.com/214x64" alt="placeholder" />
-        <nav>
-          <ul>
-            <li>Workspace</li>
-            <li>Membership</li>
-            <li>Community</li>
-          </ul>
+    <div className="header">
+      <div className="container">
+        <header>
+          <img src={logo} alt="placeholder" />
+          <nav className="navigation">
+            <ul>
+              {mainNavLinks.map((link) => (
+                <li>{link}</li>
+              ))}
+            </ul>
 
-          <ul>
-            <li>Contact</li>
-            <li>Join us</li>
-            <li>Login</li>
-          </ul>
+            <ul>
+              {secondaryNavLinks.map((link) => (
+                <li>{link}</li>
+              ))}
+            </ul>
 
-        </nav>
-      </header>
+          </nav>
+        </header>
+      </div>
     </div>
   );
 }
