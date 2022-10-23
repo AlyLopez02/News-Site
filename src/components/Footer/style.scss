@@ -1,4 +1,6 @@
 .footer {
+    font-family: 'Manrope', sans-serif;
+
     .container1 {
         display: flex;
         flex-direction: row;
@@ -6,13 +8,15 @@
         background-color: #F9F9FB;
 
         nav {
-            .mainLink {
+            .firstLinkGroup {
                 display: flex;
                 flex-direction: row;
                 list-style: none;
+                font-size: 18px;
+                font-weight: 700;
 
                 li {
-                    margin: 0px 5px;
+                    margin-right: 133px;
                     cursor: pointer;
                 }
             }
@@ -20,11 +24,15 @@
             .sub {
                 display: flex;
                 flex-direction: row;
+                font-size: 16px;
+                font-weight: 400;
 
                 ul {
                     display: flex;
                     flex-direction: column;
                     list-style: none;
+                    margin-right: 64px; //eventually have to add top and bottom margins
+                    
                 }
             }
 
@@ -36,7 +44,6 @@
         display: flex;
         justify-content: space-around;
         background-color: #F0F0F2;
-        font-family: 'Manrope', sans-serif;
         font-size: 16px;
         line-height: 18.5px;
         font-weight: 400;

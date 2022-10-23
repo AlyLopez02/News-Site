@@ -28,7 +28,7 @@ function Footer() {
     <div className="footer">
       <div className="container1">
         <nav>
-          <ul className="mainLink">
+          <ul className="firstLinkGroup">
             {mainLinks.map((link) => (
               <li>{link}</li>
             ))}
@@ -53,20 +53,18 @@ function Footer() {
               ))}
             </ul>
           </div>
-
         </nav>
 
         <div>
           <p>STAY UP TO DATE WITH OUR NEWSLETTER</p>
 
-                <form>
-                  <input type="text" placeholder="Your email address" />
-                  <input type="submit" value="Sign Up" />
-                </form>
+          <form>
+            <input type="text" placeholder="Your email address" />
+            <input type="submit" value="Sign Up" />
+          </form>
 
           <p>FIND US ON</p>
 
-          
         </div>
       </div>
 
