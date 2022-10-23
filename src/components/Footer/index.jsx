@@ -55,7 +55,7 @@ function Footer() {
           </div>
         </nav>
 
-        <div>
+        <div className="sign-and-socials">
           <p>STAY UP TO DATE WITH OUR NEWSLETTER</p>
 
           <form>
@@ -64,6 +64,10 @@ function Footer() {
           </form>
 
           <p>FIND US ON</p>
+
+          <div id="icons">
+            icons
+          </div>
 
         </div>
       </div>
