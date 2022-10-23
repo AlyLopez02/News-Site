@@ -26,10 +26,50 @@ const lastLinks = [
 function Footer() {
   return (
     <div className="footer">
-      <div id="container1">
-        <nav>links</nav>
-        <div>newsletter and socials</div>
+      <div className="container1">
+        <nav>
+          <ul className="mainLink">
+            {mainLinks.map((link) => (
+              <li>{link}</li>
+            ))}
+          </ul>
+
+          <div className="sub">
+            <ul>
+              {subLinks.map((link) => (
+                <li>{link}</li>
+              ))}
+            </ul>
+
+            <ul>
+              {subLinks.map((link) => (
+                <li>{link}</li>
+              ))}
+            </ul>
+
+            <ul>
+              {subLinks.map((link) => (
+                <li>{link}</li>
+              ))}
+            </ul>
+          </div>
+
+        </nav>
+
+        <div>
+          <p>STAY UP TO DATE WITH OUR NEWSLETTER</p>
+
+                <form>
+                  <input type="text" placeholder="Your email address" />
+                  <input type="submit" value="Sign Up" />
+                </form>
+
+          <p>FIND US ON</p>
+
+          
+        </div>
       </div>
+
       <div className="container2">
         <p>@2021 CompanyName. All right reserved</p>
         <ul>

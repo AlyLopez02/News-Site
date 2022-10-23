@@ -1,8 +1,45 @@
 .footer {
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #F9F9FB;
+
+        nav {
+            .mainLink {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+
+                li {
+                    margin: 0px 5px;
+                    cursor: pointer;
+                }
+            }
+
+            .sub {
+                display: flex;
+                flex-direction: row;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                }
+            }
+
+        }
+
+    }
+
     .container2 {
         display: flex;
         justify-content: space-around;
         background-color: #F0F0F2;
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        line-height: 18.5px;
+        font-weight: 400;
 
         ul {
             display: flex;
@@ -11,6 +48,7 @@
 
             li {
                 margin: 0px 5px;
+                cursor: pointer;
             }
         }
     }
