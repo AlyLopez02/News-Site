@@ -59,8 +59,8 @@ function Footer() {
           <p>STAY UP TO DATE WITH OUR NEWSLETTER</p>
 
           <form>
-            <input type="text" placeholder="Your email address" />
-            <input type="submit" value="Sign Up" />
+            <input type="text" placeholder="Your email address" className="email" />
+            <input type="submit" value="SIGN UP" className="submit" />
           </form>
 
           <p>FIND US ON</p>

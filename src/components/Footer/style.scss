@@ -1,12 +1,15 @@
 .footer {
     font-family: 'Manrope', sans-serif;
 
+
     .container1 {
         //maybe make another container to fix styles?
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         background-color: #F9F9FB;
+        padding-top: 81px;
+        padding-bottom: 63px;
 
         nav {
             .firstLinkGroup {
@@ -50,6 +53,35 @@
                 font-weight: 700;
                 line-height: 24.66px;
                 text-align: left;
+            }
+
+            form {
+                text-align: left;
+                font-size: 14px;
+
+                .email {
+                    width: auto;
+                    height: auto;
+                    border-radius: 4px 0px 0px 4px;
+                    border: 1.19px solid #2C2C2C;
+                    padding: 15px;
+                    padding-right: 158px;
+                    font-weight: 300;
+                    // color: #C4C4C4;
+                }
+
+                .submit {
+                    padding: 15px;
+                    width: 105px;
+                    height: auto;
+                    border-radius: 0px 4px 4px 0px;
+                    background-color: #2C2C2C;
+                    border: 1.19px solid #2C2C2C;
+                    color: white;
+                    font-weight: 600;
+                }
+
+                
             }
         }
 
