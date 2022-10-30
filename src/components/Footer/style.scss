@@ -1,0 +1,77 @@
+.footer {
+    font-family: 'Manrope', sans-serif;
+
+    .container1 {
+        //maybe make another container to fix styles?
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #F9F9FB;
+
+        nav {
+            .firstLinkGroup {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24.66px;
+
+                li {
+                    margin-right: 133px;
+                    cursor: pointer;
+                }
+            }
+
+            .sub {
+                display: flex;
+                flex-direction: row;
+                font-size: 16px;
+                font-weight: 400;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                    margin-right: 64px; //eventually add top and bottom margins
+
+                    li {
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+        }
+
+        .sign-and-socials {
+            p {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24.66px;
+                text-align: left;
+            }
+        }
+
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #F0F0F2;
+        font-size: 16px;
+        line-height: 18.5px;
+        font-weight: 400;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+            li {
+                margin: 0px 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
