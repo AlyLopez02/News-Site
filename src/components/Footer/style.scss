@@ -6,7 +6,7 @@
         //maybe make another container to fix styles?
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background-color: #F9F9FB;
         padding-top: 81px;
         padding-bottom: 63px;
@@ -38,8 +38,11 @@
                     list-style: none;
                     margin-right: 64px; //eventually add top and bottom margins
 
+
                     li {
                         cursor: pointer;
+                        line-height: 23px;
+                        margin-bottom: 6px; //maybe get rid of or change
                     }
 
                 }
@@ -81,7 +84,22 @@
                     font-weight: 600;
                 }
 
-                
+
+            }
+
+            .icon-div {
+                margin-top: 31px;
+
+                .icons {
+                    text-align: left;
+                    margin-top: 23px;
+
+                    i {
+                        font-size: 23px;
+                        color: #7A7A7A;
+                        margin-right: 18px;
+                    }
+                }
             }
         }
 

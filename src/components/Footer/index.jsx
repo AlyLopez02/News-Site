@@ -63,10 +63,14 @@ function Footer() {
             <input type="submit" value="SIGN UP" className="submit" />
           </form>
 
-          <p>FIND US ON</p>
+          <div className="icon-div">
+            <p>FIND US ON</p>
 
-          <div id="icons">
-            icons
+            <div className="icons">
+              <i className="fa-brands fa-square-facebook" />
+              <i className="fa-brands fa-twitter" />
+              <i className="fa-brands fa-instagram" />
+            </div>
           </div>
 
         </div>
